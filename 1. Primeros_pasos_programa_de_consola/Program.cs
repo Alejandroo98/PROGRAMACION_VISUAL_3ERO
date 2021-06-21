@@ -3,16 +3,14 @@
 namespace Clase2_17_06_2021_
  
 {
-    
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine( args );
             // Pedir 10 datos de una persona, bool, string, float, int, double, dateTime
-            Console.WriteLine("======= Bienvenido ========");
             if( args[0] == "START")
             {
+                Console.WriteLine("======= BIENVENIDO ========");
                 Console.WriteLine("==== LLENA LOS CAMPOS =====");
                 SaludoInicial(args);
 
@@ -21,49 +19,51 @@ namespace Clase2_17_06_2021_
                 Console.WriteLine("FIN DE LA APP");
             }
         }
+        
         static void SaludoInicial( String[] args ) 
         {
+            Person persona = new Person();
             Console.WriteLine("Ingresa tu primer nombre: ");
-            string name = Console.ReadLine();
+            persona.Name = Console.ReadLine();
 
             Console.WriteLine("Ingresa tu segundo nombre: ");
-            string lastName = Console.ReadLine();
+            persona.LastName = Console.ReadLine();
             
             Console.WriteLine("¿Eres mayor de edad?");
-            bool adult = bool.Parse(Console.ReadLine());
+            persona.Adult = bool.Parse(Console.ReadLine());
 
             //"Solo para mayores de edad"
-            if( adult == false ){
+            if( persona.Adult == false ){
                 Console.Write("==== FIN DEL PROGRAMA ====");
                 return;
                 // Console.ReadKey();
             }
 
             Console.WriteLine("Ingresa tu edad: ");
-            int age = int.Parse(Console.ReadLine());
+            persona.Age = int.Parse(Console.ReadLine());
             
             Console.WriteLine("Ingresa tu fecha de cumpleaños: ");
-            string date = Console.ReadLine();
+            persona.Date = Console.ReadLine();
 
             Console.WriteLine("Ingresa tu semestre: ");
-            int semester = int.Parse(Console.ReadLine());
+            persona.Semester = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Ingresa tu direccion domiciliaria: ");
-            string address = Console.ReadLine();
+            persona.Address = Console.ReadLine();
 
 
             Console.WriteLine("Ingresa tu numero de telefono: ");
-            float phone = float.Parse(Console.ReadLine());
+            persona.Phone = float.Parse(Console.ReadLine());
 
             
             Console.WriteLine("Tipo de sangre: ");
-            string blood = Console.ReadLine();
+            persona.Blood = Console.ReadLine();
 
             Console.WriteLine("Carrera que estudias: ");
-            string carrer = Console.ReadLine();
+            persona.Carrer = Console.ReadLine();
             
             Console.WriteLine(
-                "==== REGISTRO EXITOSO ==== \n. Datos del registro:\n•Nombre: {0},\n•Apellido: {1},\n•Adulto: {2},\n•Age: {3},\n•Date: {4},\n•Semestre: {5},\n•Address: {6},\n•Phone: {7},\n•Blood: {8},\n•Carrer: {9}", name, lastName, adult, age, date, semester, address, phone, blood, carrer
+                "==== REGISTRO EXITOSO ==== \n. Datos del registro:\n•Nombre: {0},\n•Apellido: {1},\n•Adulto: {2},\n•Age: {3},\n•Date: {4},\n•Semestre: {5},\n•Address: {6},\n•Phone: {7},\n•Blood: {8},\n•Carrer: {9}", persona.Name, persona.LastName, persona.Adult, persona.Age, persona.Date, persona.Semester, persona.Address, persona.Phone, persona.Blood, persona.Carrer
             );
 
             Console.ReadKey();
