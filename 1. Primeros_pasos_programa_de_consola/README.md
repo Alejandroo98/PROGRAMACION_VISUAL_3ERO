@@ -1,3 +1,7 @@
+# INTRUCCIONES
+
+Al ejecutar el programa debe incluir la palabra "START". Ej. -> dotnet run START •
+
 # El programa debe cumplir:
 
 Enviar el enlace del repositorio para acceder al programa, realizar la invitación
