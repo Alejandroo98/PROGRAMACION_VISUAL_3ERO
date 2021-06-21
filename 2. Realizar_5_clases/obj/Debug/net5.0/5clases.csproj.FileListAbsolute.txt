@@ -1,0 +1,16 @@
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\bin\Debug\net5.0\5clases.exe
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\bin\Debug\net5.0\5clases.deps.json
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\bin\Debug\net5.0\5clases.runtimeconfig.json
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\bin\Debug\net5.0\5clases.runtimeconfig.dev.json
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\bin\Debug\net5.0\5clases.dll
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\bin\Debug\net5.0\ref\5clases.dll
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\bin\Debug\net5.0\5clases.pdb
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.AssemblyInfo.cs
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.dll
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\ref\5clases.dll
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.pdb
+C:\Users\USER\Desktop\2._5_Clases\ProgramacionVisual-JosueMosquera\5clases\obj\Debug\net5.0\5clases.genruntimeconfig.cache
