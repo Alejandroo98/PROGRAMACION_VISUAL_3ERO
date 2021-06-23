@@ -21,7 +21,7 @@ namespace Clase_22_06_2021
 
             Canton cantonUno = new Canton();
             cantonUno.Nombre = "Mejia";
-
+            
             Canton cantonDos = new Canton();
             cantonDos.Nombre = "Cayambe";
              
